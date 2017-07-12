@@ -27,6 +27,10 @@ Removing all horizontal whitespaces from your file/code now...
 
 Horizontal whitespaces removed. Please check your file.
 I hope you liked it ;-)
+```
+
+This is the file after executing my script.
+```
 shashank@shashank-dbserver:~/Desktop$ cat whitespace.txt
 Hi There,
 My name is Shashank.
@@ -50,7 +54,7 @@ for(i = 1, fact = 1; i < 10; i++, fact *= i) {
 </HTML> 
 
 ```
-And below is the original file before execution of my script.
+And below is the original file before execution of the script.
 
 ```
 shashank@shashank-dbserver:~/Desktop$ cat whitespace.txt 
