@@ -19,9 +19,9 @@ then
   cp $FILENAME $FILENAME.whiteSpaceRemover.orig
   echo ""
   echo "Removing all horizontal whitespaces from your file/code now..."
-  sed '/^\s*$/d' $FILENAME > /tmp/$FILENAME
-  cp /tmp/$FILENAME $FILENAME
-  rm /tmp/$FILENAME
+  sed '/^\s*$/d' $FILENAME > /tmp/testFile.txt
+  cp /tmp/testFile.txt $FILENAME
+  rm /tmp/testFile.txt
   echo ""
   echo "Horizontal whitespaces removed. Please check your file."
   echo "I hope you liked it ;-)"
