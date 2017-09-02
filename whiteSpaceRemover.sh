@@ -5,7 +5,7 @@
 echo ""
 echo "Hi There! Welcome to whiteSpaceRemover. This small utility will help you remove horizontal whitespaces from your code. End result is clean & more readable code ;-)"
 echo ""
-echo "whiteSpaceRemover takes care of backing up the original file before overwriting it, so always have your original file with you."
+echo "whiteSpaceRemover takes care of backing up the original file before overwriting it, so you always have your original file with you."
 echo ""
 if [ $# -eq 0 ]
 then
